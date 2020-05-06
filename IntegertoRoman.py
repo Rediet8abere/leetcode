@@ -2,6 +2,7 @@ def intToRoman(num):
         """
         :type num: int
         :rtype: str
+        Time-compelxity: 3*O(1)
         """
         thousands = ['', 'M', 'MM', 'MMM']
         hunderds = ['', 'C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM']

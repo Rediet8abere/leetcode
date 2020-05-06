@@ -3,6 +3,7 @@ def threeSumClosest(nums, target):
         :type nums: List[int]
         :type target: int
         :rtype: int
+        Time-complexity: O(n log n)+O(n^2)
         """
         #-3
         # print("close? ", closest)
